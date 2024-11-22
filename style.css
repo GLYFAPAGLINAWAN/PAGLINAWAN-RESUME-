@@ -25,7 +25,7 @@ header {
 header h1 {
     font-size: 2.5em;
     margin: 0;
-    color: #171818;
+    color: #444646;
 }
 
 header p {
@@ -34,7 +34,7 @@ header p {
 }
 
 h2 {
-    background-color: #a2e7f8;
+    background-color: #717779;
     color: white;
     padding: 10px;
     border-radius: 5px;
