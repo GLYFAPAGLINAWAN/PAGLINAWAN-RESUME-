@@ -1,42 +1,79 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 20px;
-  background-color: #f4f4f9;
-  color: #333;
-}
 
-h1, h2, h3 {
-  color: #555;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-.section {
-  margin-bottom: 20px;
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.section h2 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #171818;
 }
 
-.job, .education {
-  margin-bottom: 15px;
+header p {
+    font-size: 1.1em;
+    color: #555;
 }
 
-.job h3, .education h3 {
-  margin: 0;
+h2 {
+    background-color: #a2e7f8;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.6em;
+    margin-bottom: 10px;
 }
 
-.job span, .education span {
-  font-size: 0.9em;
-  color: #777;
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul li {
+    font-size: 1.1em;
+}
+
+ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+section ul li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 
 }
